@@ -78,8 +78,8 @@ flex-wrap: wrap;
     max-width: 150px;
 	margin-left: 15px;
     margin:auto;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin-right: 20px; 
     margin-left: 20px;
     
@@ -93,8 +93,8 @@ flex-wrap: wrap;
     margin-right: 20px; 
     margin-left: 20px;
     display: block;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .Abovebodytext {
     text-align: center;
