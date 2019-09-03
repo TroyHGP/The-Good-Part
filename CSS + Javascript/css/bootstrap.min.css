@@ -48,6 +48,8 @@ display: inline-block;
 flex-wrap: wrap;
     }
 .Logo {
+    max-width: 100%;
+    height: auto;
 }
 .Bodyimage {
     max-width: 150px;
@@ -78,6 +80,8 @@ flex-wrap: wrap;
     margin:auto;
     padding-top: 25px;
     padding-bottom: 25px;
+    margin-right: 20px; 
+    margin-left: 20px;
     
 
 }
@@ -86,10 +90,11 @@ flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     max-width: 150px;
-    margin: auto;
-    padding-bottom: 25px;
+    margin-right: 20px; 
+    margin-left: 20px;
+    display: block;
     padding-top: 25px;
-
+    padding-bottom: 25px;
 }
 .Abovebodytext {
     text-align: center;
