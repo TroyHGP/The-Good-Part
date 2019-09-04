@@ -119,6 +119,17 @@ flex-wrap: wrap;
     margin-top: 35px;
     }
     
+    .aboutprofile{
+        max-width: 300px;
+        border: 6px solid #91D7F2 ;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: left;
+        float: left;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }    
+    
     .donatewidth{
         max-width: 1140px;
         align-items: center;
@@ -132,13 +143,3 @@ flex-wrap: wrap;
     height: auto;
     }
 
-    .aboutprofile{
-        max-width: 300px;
-        border: 6px solid #91D7F2 ;
-        border-radius: 50%;
-        justify-content: center;
-        align-items: left;
-        float: left;
-        margin-right: 30px;
-        margin-bottom: 30px;
-    }
