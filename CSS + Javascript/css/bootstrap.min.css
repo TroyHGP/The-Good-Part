@@ -120,7 +120,7 @@ flex-wrap: wrap;
     }
     
     .aboutprofile{
-        max-width: 100%;
+        max-width: 30%;
         height: auto;
         border: 6px solid #91D7F2 ;
         border-radius: 50%;
