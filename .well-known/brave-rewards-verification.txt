@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: thegoodpart.world
+Token: c44f49bc531fd283f7e818f75adeee522d4e1408a5bd6d1bd8ed52dc46e3b18a
