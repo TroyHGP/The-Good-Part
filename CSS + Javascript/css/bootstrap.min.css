@@ -46,8 +46,8 @@ display: inline-block;
 flex-wrap: wrap;
     }
 .Logo {
-    max-width: 100%;
-    height: auto;
+	max-width: 100%;
+	height: auto;
 }
 .Bodyimage {
     max-width: 150px;
