@@ -50,7 +50,16 @@ body,td,th {
 
   gtag('config', 'UA-151719347-1');
 </script>  
-
+    <script>
+        window.onload = function () {
+            var t = document.querySelector('#widget')
+            window.binanceFiatWidget.Widget(t, {
+                urlParmas: {
+                        ref: 'your refId'
+                }
+            })
+        }
+    </script>
 </head>
 
 <body id="page-top">
@@ -86,8 +95,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <br>
         <br>
         <div class="Abovebodytext">
-          <h1><span style="color:#bd2130; font-family: 'Museo Sans 900' font-weight: bolder; font-size:1.7rem">Frequently asked questions</span></h1>
+
           <em><span style="color: #91D7F2; font-family: goodlife-sans-condensed, sans-serif; font-weight: 400; font-style: normal; font-size: 2.6em;">"What is good for the part is good for the whole"</span></em>
+                  <h1><span style="color:#bd2130; font-family: 'Museo Sans 900' font-weight: bolder; font-size:1.7rem">Frequently asked questions</span></h1>
         </div>
         <p class="container Bodytext"><span style="color: #527e92; font-weight: bolder; font-size: 1.3em;">Why The Good Part?</span> 
         <br>The Good Part recognizes all humans as part of one large family. <br>
@@ -110,6 +120,9 @@ Everything that happens to the part is useful for the whole therefore by allowin
 
         <p class="container Bodytext"><span style="color: #527E92; font-weight: bolder; font-size: 1.3em;">The amount of users on the homepage is 0</span> 
         <br> This figure is called remotely and stored in your browser. Please refresh browser to update.
+        <br>
+    <script src="https://bin.bnbstatic.com/static/js/ocbs/binance-fiat-widget.js"></script> 
+    <div id="widget"></div>
         </p>
     </div>
     
