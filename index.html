@@ -46,7 +46,20 @@ body,td,th {
 
 <!-- Google sheets call --> 
 <script src="CSS + Javascript/js/google sheets.js"></script>
-    
+
+<!-- Binance purchase widget -->
+    <script>
+        window.onload = function () {
+            var t = document.querySelector('#widget')
+            window.binanceFiatWidget.Widget(t, {
+                urlParmas: {
+                        ref: '36980879'
+                }
+            })
+        }
+    </script>
+    <script src="https://bin.bnbstatic.com/static/js/ocbs/binance-fiat-widget.js"></script> 
+
 <!-- Google analytics tag -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151719347-1"></script>
@@ -110,6 +123,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section class="page-section" id="services">
   <div class="container">
     <div class="Abovebodytext">
+
+    <div id="widget" align="center" ></div>
       <h1><span style="color:#bd2130; font-family: 'Museo Sans 900' font-weight: bolder; font-size:1.7rem">Cryptocurrency exchange donation links</span></h1>
 Sign up to an exchange below to passively donate bitcoin and other cryptocurrencies to nonprofits while you trade. <br> Simply click on an exchange logo or scan the QR code to quickly register and start making a difference.
 </div>
