@@ -52,6 +52,11 @@ body,td,th {
         window.onload = function () {
             var t = document.querySelector('#widget')
             window.binanceFiatWidget.Widget(t, {
+                coinInfo: {
+                    fiat: 'AUD',
+                    crypto: 'BTC',
+                    isInUS: false                    
+                },
                 urlParmas: {
                         ref: '36980879'
                 }
